@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container for the aplication -->
+    <div class="quote-container">
+        <!-- Aplication Title -->
+        <h1>Random Quote Generator</h1>
+        <!-- Area to display the quote -->
+         <div class="quote-box">
+            <!-- Element to display the quote text -->
+             <p id="quote">Click the button below to generate a random quote</p>
+             <p id="translation">Translate to Indonesia</p>
+             <!-- Element to display the author's name -->
+             <p id="author">- Author</p>
+             <p id="author-info" class="author-info"></p>
+
+             <div class="quote-actions">
+                <span id="copy-quote" class="icon-btn">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M16 1H4c-1.1 0-2 .9-2 2v12h2V3h12V1z"/>
+                        <path d="M19 5H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2z"/>
+                    </svg>
+                </span>
+                <span id="share-quote" class="icon-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.03-.47-.09-.7l7-4.11A2.99 2.99 0 0018 7.91 3 3 0 1015 5a2.99 2.99 0 00.04.49l-7 4.11A3 3 0 006 9a3 3 0 100 6 3 3 0 002.04-.77l7.12 4.18c-.03.17-.06.34-.06.52a3 3 0 103-3z"/>
+                    </svg>
+                </span>
+             </div>
+             <p id="quote"></p>
+             <p id="author"></p>
+             <p id="translation"></p>
+         </div>
+         <!-- Button to generate a new quote -->
+         <button type="button" id="new-quote">New Quote</button>
+         
+        </div>
+
+<script src="script.js"></script>
+</body>
+</html>
